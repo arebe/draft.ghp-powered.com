@@ -43,3 +43,7 @@ body{
 h1{
 
 }
+
+.rt{
+	float: right;
+}
