@@ -4,6 +4,42 @@ a:visited {color: #6699CC }
 a:hover {color:#7A3DB8}
 header a:hover{color: #6699CC}
 
-nav{
-	background-color: #000000;
+html, body{
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	height: 100%;
+	
+}
+
+body{
+	margin:0 auto 0 auto; 
+	width: 960px;
+}
+#nav{
+	background-color:rgba(0, 0, 0, 0.2);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+#wrap{
+	min-height: 100%;
+}
+
+#main{
+	overflow: auto;
+	padding-top: 15px;
+	/* footer height */
+	padding-bottom: 50px;
+}
+
+#footer{
+	position: relative;
+	height: 50px;
+	margin: -50 auto 0 auto;
+	clear: both;
+	padding-top: 10px;
+	text-align: center;
+}
+
+h1{
+
 }
