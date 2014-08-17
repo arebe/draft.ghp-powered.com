@@ -70,10 +70,7 @@ h1{
 
 .blocks{
 	height: 200px;
-	padding: 10px;
-	margin-top: 20px;
-	margin-left: -4px;
-	margin-right: -4px;
+	padding: 20px;
 	text-align: center;
 	border: 1px solid black;
 }
