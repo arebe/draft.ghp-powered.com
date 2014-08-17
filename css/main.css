@@ -1,8 +1,12 @@
 /* LVHA */
-a:link {color: #6699FF; text-decoration: none}
-a:visited {color: #6699CC }
-a:hover {color:#7A3DB8}
-header a:hover{color: #6699CC}
+a:link {color: #217C7E; text-decoration: none}
+a:visited {color: #217C7E }
+a:hover {color:#3399FF}
+#nav a:hover{
+	color: #217C7E;
+	background-color: rgba(255,255,255,0.9);
+	padding: 5px;
+}
 
 html, body{
 	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
@@ -15,11 +19,18 @@ body{
 	width: 960px;
 }
 #nav{
-	background-color:rgba(0, 0, 0, 0.2);
+	background-color:rgba(243, 239, 224, 1);
 	padding-top: 5px;
 	padding-bottom: 5px;
 	text-align: center;
 }
+
+#current{
+	color: #3399FF;
+	background-color: rgba(255,255,255,0.9);
+	padding: 5px;
+}
+
 #wrap{
 	min-height: 100%;
 }
@@ -28,22 +39,41 @@ body{
 	overflow: auto;
 	padding-top: 15px;
 	/* footer height */
-	padding-bottom: 50px;
+	padding-bottom: 80px;
 }
 
 #footer{
 	position: relative;
 	height: 50px;
-	margin: -50 auto 0 auto;
+	margin: -70px auto 0 auto;
 	clear: both;
 	padding-top: 10px;
 	text-align: center;
 }
 
-h1{
+#motto{
+	color: rgba(154, 51, 52, 0.9);
+	margin: 10px;
+}
 
+h1{
+	color: #9A3334;
 }
 
 .rt{
 	float: right;
+}
+
+.centered{
+	text-align: center;
+}
+
+.blocks{
+	height: 200px;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: -4px;
+	margin-right: -4px;
+	text-align: center;
+	border: 1px solid black;
 }
