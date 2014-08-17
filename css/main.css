@@ -58,6 +58,11 @@ body{
 
 h1{
 	color: #9A3334;
+	font-size: 16pt;
+}
+
+h2{
+	color: #9A3334;
 }
 
 .rt{
@@ -67,10 +72,29 @@ h1{
 .centered{
 	text-align: center;
 }
+/* Going Solar */
 
 .blocks{
 	height: 200px;
 	padding: 20px;
 	text-align: center;
 	border: 1px solid black;
+}
+
+/* Hire Us */
+
+.pcords{
+    border-collapse: collapse;
+}
+
+.pcords td{
+	border: 2px solid #219C9E;
+	padding: 1em;
+}
+
+.pcords th{
+	border: 2px solid #219C9E;
+	padding: 1em;
+	color:rgba(243, 239, 224, 1);
+	background-color: #217C7E;
 }
