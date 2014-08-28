@@ -61,7 +61,7 @@ header( "Location: $error_page" );
 // If we passed all previous tests, send the email then redirect to the thank you page.
 else {
 mail( "$webmaster_email", "GHP-Powered.com Feedback Form Results",
-  $comments, "From: rfboyce@gmail.com", "Reply-To: $email_address" );
+  $comments, "From: $email_address", "Reply-To: $email_address" );
 header( "Location: $thankyou_page" );
 }
 ?>
