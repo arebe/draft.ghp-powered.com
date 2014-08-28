@@ -9,9 +9,9 @@ $webmaster_email = "spookeriffic@gmail.com";
 This bit sets the URLs of the supporting pages.
 If you change the names of any of the pages, you will need to change the values here.
 */
-$feedback_page = "hire.html";
-$error_page = "error_message.html";
-$thankyou_page = "thank_you.html";
+$feedback_page = "./hire.html";
+$error_page = "./error_message.html";
+$thankyou_page = "./thank_you.html";
 
 /*
 This next bit loads the form field data into variables.
@@ -61,7 +61,7 @@ header( "Location: $error_page" );
 // If we passed all previous tests, send the email then redirect to the thank you page.
 else {
 mail( "$webmaster_email", "GHP-Powered.com Feedback Form Results",
-  $comments, "From: rfboyce@gmail.com", "Reply-To: $email_address" );
+  $comments, "From: $email_address" );
 header( "Location: $thankyou_page" );
 }
 ?>
