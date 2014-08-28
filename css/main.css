@@ -11,7 +11,6 @@ a:hover {color:#3399FF}
 html, body{
 	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 	height: 100%;
-	
 }
 
 body{
@@ -32,20 +31,20 @@ body{
 }
 
 #wrap{
-	min-height: 100%;
+	min-height: 99%;
 }
 
 #main{
-	overflow: auto;
+	overflow: hidden;
 	padding-top: 15px;
 	/* footer height */
-	padding-bottom: 80px;
+	padding-bottom: 90px;
 }
 
 #footer{
 	position: relative;
 	height: 50px;
-	margin: -70px auto 0 auto;
+	margin: -100px auto 0 auto;
 	clear: both;
 	padding-top: 10px;
 	text-align: center;
