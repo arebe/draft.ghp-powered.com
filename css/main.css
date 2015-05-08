@@ -15,11 +15,10 @@ html, body{
 
 body{
 	margin:0 auto 0 auto; 
-	width: 960px;
 }
 #nav{
 	background-color:rgba(243, 239, 224, 1);
-	padding-top: 5px;
+	padding-top: 6px;
 	padding-bottom: 5px;
 	text-align: center;
 }
@@ -38,13 +37,13 @@ body{
 	overflow: hidden;
 	padding-top: 15px;
 	/* footer height */
-	padding-bottom: 90px;
+	padding-bottom: 100px;
 }
 
 #footer{
 	position: relative;
-	height: 50px;
-	margin: -100px auto 0 auto;
+	height: 60px;
+	margin: -110px auto 0 auto;
 	clear: both;
 	padding-top: 10px;
 	text-align: center;
