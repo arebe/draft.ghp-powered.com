@@ -1,0 +1,112 @@
+/* LVHA */
+a:link {color: #217C7E; text-decoration: none}
+a:visited {color: #217C7E }
+a:hover {color:#3399FF}
+#nav a:hover{
+	color: #217C7E;
+	background-color: rgba(255,255,255,0.9);
+	padding: 5px;
+}
+
+html, body{
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	height: 100%;
+}
+
+body{
+	margin:0 auto 0 auto; 
+}
+#nav{
+	background-color:rgba(243, 239, 224, 1);
+	padding-top: 6px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+#current{
+	color: #3399FF;
+	background-color: rgba(255,255,255,0.9);
+	padding: 5px;
+}
+
+#wrap{
+	min-height: 99%;
+}
+
+#main{
+	overflow: hidden;
+	padding-top: 15px;
+	/* footer height */
+	padding-bottom: 100px;
+}
+
+#footer{
+	position: relative;
+	height: 60px;
+	margin: -110px auto 0 auto;
+	clear: both;
+	padding-top: 10px;
+	text-align: center;
+}
+
+#motto{
+	color: rgba(154, 51, 52, 0.9);
+	margin: 10px;
+}
+
+h1{
+	color: #9A3334;
+	font-size: 16pt;
+}
+
+h2{
+	color: #9A3334;
+}
+
+.rt{
+	float: right;
+}
+
+.centered{
+	text-align: center;
+}
+
+/* Going Solar */
+
+.blocks{
+	height: 240px;
+	padding: 20px;
+	text-align: center;
+	border: 1px solid black;
+}
+
+/* Hire Us */
+
+.pcords{
+    border-collapse: collapse;
+}
+
+.pcords td{
+	border: 2px solid #219C9E;
+	padding: 1em;
+}
+
+.pcords th{
+	border: 2px solid #219C9E;
+	padding: 1em;
+	color:rgba(243, 239, 224, 1);
+	background-color: #217C7E;
+}
+
+/* Strand Sound */
+
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+    margin: 10px;
+}
