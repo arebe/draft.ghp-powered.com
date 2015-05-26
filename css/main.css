@@ -74,12 +74,42 @@ h2{
 
 /* Going Solar */
 
+/* media queries for blocks */
+/*============= Base 966 ==========*/
 .blocks{
-	height: 240px;
-	padding: 20px;
-	text-align: center;
-	border: 1px solid black;
+  height: 300px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid black;
 }
+
+/*============= 768px Grid ========*/
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+
+  .blocks{
+    height: 390px;
+    padding: 20px;
+  }
+
+}
+
+/*============= Less than 768px ========*/
+@media only screen and (max-width: 767px) {
+
+  .blocks{
+    height: 300px;
+    padding: 20px;
+  }
+}
+/*============= Less than 480px ========*/
+@media only screen and (max-width: 479px) {
+  .blocks{
+    height: 390px;
+    padding: 20px;
+  }
+}
+
+
 
 /* Hire Us */
 
