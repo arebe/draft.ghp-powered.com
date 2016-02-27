@@ -1,5 +1,5 @@
 ---
-title: GHP Powered
+title: Home
 layout: default
 ---
 
